@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Etch-A-Sketch</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Megrim:regular" 
+    rel="stylesheet" />
+</head>
+<body>
+    <h1>ETCH-A-SKETCH</h1>
+    <div class="fullcontainer">
+        <div class="upperbox">  
+            <div class="buttoncontainer">
+                <div class="colors">
+                    <button id="blackBtn">Black</button>
+                    <button id="randomBtn">Random</button>
+                    <button id="rainbowBtn">Rainbow</button>
+                    <button id="eraseBtn">Erase</button>
+                </div>
+                <div class="clearer">
+                    <button id="clearBtn">Clear</button>
+                </div>
+            </div>
+            <div id="gridcontainer"></div>
+        </div> 
+        <div class="lowerbox">
+            <div class="slidercontainer">
+                <input type="range" min="1" max="64" value="0" id="slider" 
+                oninput="amount.value=slider.value"> 
+                <output type="amount" id="amount" for="slider">0</output>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
