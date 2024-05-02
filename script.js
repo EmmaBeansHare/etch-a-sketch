@@ -49,6 +49,8 @@ function chooseRandom2(){
     return choose[Math.floor(Math.random() * choose.length)];
 }
 
+//Functions for clearing the board and changing square sizes
+
 function clearIt(){
     gridcontainer.innerHTML = '';
     makeGrid(currentSize);
