@@ -1,7 +1,7 @@
 # etch-a-sketch
 An etch-a-sketch toy created with HTML, CSS and JS.
 
-[Preview](https://emmahare.github.io/etch-a-sketch/) <<<<
+[Preview](https://emmabeanshare.github.io/etch-a-sketch/) <<<<
 
 Mobile-responsive: ❌
 
